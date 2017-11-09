@@ -1,0 +1,27 @@
+{
+  "visual": {
+    "name": "queryStringFilter",
+    "displayName": "queryStringFilter",
+    "guid": "queryStringFilterBFEAC1B11A474BFAA745F39E57DC922D",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Query String Filter is a Power BI custom visual that allows you to slicer your data using query string into published url .",
+    "supportUrl": "https://github.com/mgigor/QueryStringFilter/issues",
+    "gitHubUrl": "https://github.com/mgigor/QueryStringFilter/"
+  },
+  "apiVersion": "1.7.0",
+  "author": {
+    "name": "Igor Manfrinato Gorini",
+    "email": "mgigor@hotmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
